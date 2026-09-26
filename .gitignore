@@ -19,6 +19,12 @@ venv/
 Thumbs.db
 
 # Temporary database and log files
+# The 21.09 apps create and edit their own local databases.
+/Учебная практика/Учебная практика 21.09.2026/**/partners.db
 *.db-journal
+*.db-wal
+*.db-shm
 *.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
 *.log
